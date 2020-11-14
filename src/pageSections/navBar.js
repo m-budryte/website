@@ -15,7 +15,7 @@ const NavBar = () => {
     return (
         <Router>
             <ul>
-                <li><Link to="/main">home</Link></li>
+                <li><Link to="/">home</Link></li>
                 <li><Link to="/articles">articles</Link></li>
                 <li><Link to="/referrals">referrals</Link></li>
                 <li><Link to="/about">about</Link></li>
