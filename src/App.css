@@ -2,3 +2,43 @@
   text-align: center;
 }
 
+.footer {
+  position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: rgb(154, 142, 142);
+color: white;
+text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-telegram {
+  color:black ;
+}
+
+.fa-envelope {
+  color: black;
+}
+
