@@ -1,9 +1,11 @@
 import './App.css';
 import Footer from './pageSections/footer'
+import NavBar from './pageSections/navBar';
 function App() {
   return (
     <div className="App"> 
-      <p>My name is Masha Budryte and I am a software developer and science journalist. </p>
+      <NavBar/>
+      <p>under construction </p>
       <Footer/>
     </div>
   );
