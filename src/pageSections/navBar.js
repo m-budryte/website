@@ -15,22 +15,22 @@ const NavBar = () => {
     return (
         <Router>
             <ul>
-                <li><Link to="/">home</Link></li>
-                <li><Link to="/articles">articles</Link></li>
-                <li><Link to="/referrals">referrals</Link></li>
-                <li><Link to="/about">about</Link></li>
+                <li><Link to="/website">home</Link></li>
+                <li><Link to="/website/articles">articles</Link></li>
+                <li><Link to="/website/referrals">referrals</Link></li>
+                <li><Link to="/website/about">about</Link></li>
             </ul>
             <Switch>
-                <Route path="/articles">
+                <Route path="/website/articles">
                     <ArticlesSection/>
                 </Route>
-                <Route path="/referrals">
+                <Route path="/website/referrals">
                     <ReferralsSection/>
                 </Route>
-                <Route path="/about">
+                <Route path="/website/about">
                     <AboutSection />
                 </Route>
-                <Route path="/">
+                <Route path="/website">
                     <HomeSection/>
                 </Route>
             </Switch>
