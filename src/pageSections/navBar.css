@@ -27,3 +27,7 @@ ul {
   li a:hover {
     background-color: rgb(72, 30, 73);
   }
+
+  .switch {
+    margin-top: 10%;
+  }
