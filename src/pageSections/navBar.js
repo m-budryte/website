@@ -4,14 +4,14 @@ import {
     Switch,
     Route,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
 import AboutSection from '../websiteSections/AboutSection/aboutSection';
 import ArticlesSection from '../websiteSections/ArticlesSection/articlesSection'
 import HomeSection from '../websiteSections/HomeSection/homeSection';
 import ReferralsSection from '../websiteSections/RefSection/referralsSection';
 import './navBar.css';
 
-const NavBar = () => {    
+const NavBar = () => {
     return (
         <Router>
             <ul>
@@ -22,16 +22,16 @@ const NavBar = () => {
             </ul>
             <Switch>
                 <Route path="/website/articles">
-                    <ArticlesSection/>
+                    <ArticlesSection />
                 </Route>
                 <Route path="/website/referrals">
-                    <ReferralsSection/>
+                    <ReferralsSection />
                 </Route>
                 <Route path="/website/about">
                     <AboutSection />
                 </Route>
                 <Route path="/website">
-                    <HomeSection/>
+                    <HomeSection />
                 </Route>
             </Switch>
         </Router>

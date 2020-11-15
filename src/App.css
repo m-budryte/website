@@ -7,9 +7,10 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(175, 104, 158, 0.563);
+  background-color: rgba(175, 104, 158);
   color: white;
   text-align: center;
+  z-index: 2;
 }
 
 .fa {
