@@ -1,6 +1,6 @@
 ul {
-    position: fixed;
     left: 0;
+    margin-bottom: 50px;
     top: 0;
     width: 100%;
     list-style-type: none;
@@ -26,8 +26,4 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: rgb(72, 30, 73);
-  }
-
-  .switch {
-    margin-top: 10%;
   }

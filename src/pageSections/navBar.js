@@ -14,12 +14,14 @@ import './navBar.css';
 const NavBar = () => {
     return (
         <Router>
-            <ul>
-                <li><Link to="/website">home</Link></li>
-                <li><Link to="/website/about">about me</Link></li>
-                <li><Link to="/website/articles">articles</Link></li>
-                <li><Link to="/website/referrals">referrals</Link></li>
-            </ul>
+            <div className="navBar">
+                <ul>
+                    <li><Link to="/website">home</Link></li>
+                    <li><Link to="/website/about">about me</Link></li>
+                    <li><Link to="/website/articles">articles</Link></li>
+                    <li><Link to="/website/referrals">referrals</Link></li>
+                </ul>
+            </div>
             <div className="switch">
             <Switch>
                 <Route path="/website/articles">
