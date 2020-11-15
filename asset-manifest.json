@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.21ad4a69.chunk.css",
+    "main.css": "/website/static/css/main.13ed4307.chunk.css",
     "main.js": "/website/static/js/main.11d4c133.chunk.js",
     "main.js.map": "/website/static/js/main.11d4c133.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.212a2ea9.js",
@@ -10,14 +10,14 @@
     "static/js/3.a3752de1.chunk.js": "/website/static/js/3.a3752de1.chunk.js",
     "static/js/3.a3752de1.chunk.js.map": "/website/static/js/3.a3752de1.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.21ad4a69.chunk.css.map": "/website/static/css/main.21ad4a69.chunk.css.map",
+    "static/css/main.13ed4307.chunk.css.map": "/website/static/css/main.13ed4307.chunk.css.map",
     "static/js/2.bab290ae.chunk.js.LICENSE.txt": "/website/static/js/2.bab290ae.chunk.js.LICENSE.txt",
     "static/media/selfie-masha.f4ec8ae6.png": "/website/static/media/selfie-masha.f4ec8ae6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.212a2ea9.js",
     "static/js/2.bab290ae.chunk.js",
-    "static/css/main.21ad4a69.chunk.css",
+    "static/css/main.13ed4307.chunk.css",
     "static/js/main.11d4c133.chunk.js"
   ]
 }
