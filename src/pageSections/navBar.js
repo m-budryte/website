@@ -16,9 +16,9 @@ const NavBar = () => {
         <Router>
             <ul>
                 <li><Link to="/website">home</Link></li>
+                <li><Link to="/website/about">about me</Link></li>
                 <li><Link to="/website/articles">articles</Link></li>
                 <li><Link to="/website/referrals">referrals</Link></li>
-                <li><Link to="/website/about">about</Link></li>
             </ul>
             <Switch>
                 <Route path="/website/articles">

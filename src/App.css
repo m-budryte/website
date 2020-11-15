@@ -4,11 +4,10 @@
 
 .footer {
   position: fixed;
-  margin-top: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(154, 142, 142);
+  background-color: rgba(175, 104, 158, 0.563);
   color: white;
   text-align: center;
 }
