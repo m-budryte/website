@@ -3,7 +3,8 @@ import selfie from './selfie-masha.png'
 import './homeSection.css'
 
 const HomeSection = () => {
-    return(
+
+    return (
         <div>
             <p>Hello. This website is WIP. Thanks.</p>
             <img className="selfie" src={selfie} alt="Masha's Selfie" />
