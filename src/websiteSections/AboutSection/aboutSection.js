@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import Timeline from "./timeline";
 
 const AboutSection = () => {
-    return(
-        <div>
-            <h3>I write code</h3>
-            <h3>I also write articles about food and nutrition</h3>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Timeline />
+    </div>
+  );
+};
 
 export default AboutSection;

@@ -1,14 +1,17 @@
 import React from 'react';
-import hired from './hired-pic.png'
+import hiredPic from './hired-pic.png'
+import { ReferralLink } from './ReferralLink';
 
 const ReferralsSection = () =>{
  return (
-    <div>
-        <h4>Hired.com referral link</h4>
-        <a href="https://hired.com/x/7aae075f31f1c37d5084d0bda822ab5f">
-        <img border="0" alt="Hired.com referral link" src={hired} height="100"/>
-        </a>
-            
+     <div>
+         <h4>These are the services I have used myself and can recommend. </h4>
+         <ReferralLink
+             imgUrl={hiredPic}
+             alt="Hired.com referral link"
+             descr="Hired.com - job platform for technologists"
+            refUrl="https://hired.com/x/7aae075f31f1c37d5084d0bda822ab5fß"
+         />
     </div>
  )
 }

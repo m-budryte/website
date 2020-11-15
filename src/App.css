@@ -4,12 +4,13 @@
 
 .footer {
   position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: rgb(154, 142, 142);
-color: white;
-text-align: center;
+  margin-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(154, 142, 142);
+  color: white;
+  text-align: center;
 }
 
 .fa {
@@ -35,10 +36,9 @@ text-align: center;
 }
 
 .fa-telegram {
-  color:black ;
+  color: black;
 }
 
 .fa-envelope {
   color: black;
 }
-

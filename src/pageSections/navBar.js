@@ -8,7 +8,7 @@ import {
 import AboutSection from '../websiteSections/AboutSection/aboutSection';
 import ArticlesSection from '../websiteSections/ArticlesSection/articlesSection'
 import HomeSection from '../websiteSections/HomeSection/homeSection';
-import ReferralsSection from '../websiteSections/refSection/referralsSection';
+import ReferralsSection from '../websiteSections/RefSection/referralsSection';
 import './navBar.css';
 
 const NavBar = () => {    
