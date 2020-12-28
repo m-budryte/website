@@ -1,6 +1,52 @@
- .articleLink {
-    color: hotpink;
-    background-color: transparent !important;
+.articleLink a {
+  color: hotpink !important;
+  background-color: transparent !important;
 }
 
+.articleLink {
+  position: relative;
+  margin: 50px;
+}
 
+.articleLink img {
+  object-fit: cover;
+  width: 600px;
+  height: 300px;
+}
+
+.articleLink .title {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  color: rgb(255, 249, 249);
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+  margin: 0;
+  visibility: hidden;
+}
+
+.articleLink .publisher {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 33%;
+  left: 0;
+  color: rgb(167, 167, 167);
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+  margin: 0;
+  visibility: hidden;
+}
+
+.articleLink:hover .title {
+  visibility: visible;
+}
+
+.articleLink:hover .publisher {
+  visibility: visible;
+}
+
+.articleLink:hover img {
+  filter: brightness(20%);
+}
