@@ -1,5 +1,5 @@
 import React from "react";
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 import "./mainPage.css";
 import ArticlesSection from '../ArticlesSection/articlesSection'
 import ReferralsSection from '../RefSection/referralsSection'
