@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://m-budryte.github.io/website",
+  "homepage": "http://m-budryte.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -12,6 +12,7 @@
     "react-parallax": "^3.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-scroll": "^1.8.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
