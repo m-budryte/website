@@ -26,7 +26,7 @@ const NavBar = () => {
             </div>
             <div className="switch">
             <Switch>
-                <Route path="/articles">
+                {/* <Route path="/articles">
                     <ArticlesSection />
                 </Route>
                 <Route path="/referrals">
@@ -40,7 +40,7 @@ const NavBar = () => {
                 </Route>
                 <Route path="/">
                     <HomeSection />
-                </Route>
+                </Route> */}
             </Switch>
             </div>
         </BrowserRouter>
