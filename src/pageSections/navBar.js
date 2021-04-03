@@ -3,42 +3,47 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    BrowserRouter
 } from "react-router-dom";
 import AboutSection from '../websiteSections/AboutSection/aboutSection';
 import ArticlesSection from '../websiteSections/ArticlesSection/articlesSection'
 import HomeSection from '../websiteSections/HomeSection/homeSection';
+import MainPage from '../websiteSections/MainPage/mainPage';
 import ReferralsSection from '../websiteSections/RefSection/referralsSection';
 import './navBar.css';
 
 const NavBar = () => {
     return (
-        <Router>
+        <BrowserRouter>
             <div className="navBar">
                 <ul>
-                    <li><Link to="/website">home</Link></li>
-                    <li><Link to="/website/about">about me</Link></li>
-                    <li><Link to="/website/articles">articles</Link></li>
-                    <li><Link to="/website/referrals">referrals</Link></li>
+                    <li><Link to="/">home</Link></li>
+                    <li><Link to="/about">about me</Link></li>
+                    <li><Link to="/articles">articles</Link></li>
+                    <li><Link to="/referrals">referrals</Link></li>
                 </ul>
             </div>
             <div className="switch">
             <Switch>
-                <Route path="/website/articles">
+                <Route path="/articles">
                     <ArticlesSection />
                 </Route>
-                <Route path="/website/referrals">
+                <Route path="/referrals">
                     <ReferralsSection />
                 </Route>
-                <Route path="/website/about">
+                <Route path="/about">
                     <AboutSection />
                 </Route>
-                <Route path="/website">
+                <Route path="/test">
+                    <MainPage />
+                </Route>
+                <Route path="/">
                     <HomeSection />
                 </Route>
             </Switch>
             </div>
-        </Router>
+        </BrowserRouter>
     )
 }
 export default NavBar;

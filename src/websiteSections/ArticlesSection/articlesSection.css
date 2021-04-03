@@ -10,8 +10,8 @@
 
 .articleLink img {
   object-fit: cover;
-  width: 600px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 .articleLink .title {
@@ -24,6 +24,7 @@
   transform: translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
   margin: 0;
   visibility: hidden;
+  padding: 10%;
 }
 
 .articleLink .publisher {
@@ -49,4 +50,11 @@
 
 .articleLink:hover img {
   filter: brightness(20%);
+}
+
+.articlesBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }

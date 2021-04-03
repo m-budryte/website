@@ -8,10 +8,10 @@ export const ReferralLink = (props) => {
 
     return (
         <div>
-            <a href={refUrl}>
+            <a href={refUrl} >
                 <img border="0" alt={alt} src={imgUrl} height="140" />
             </a>
-            <h5>{descr}</h5>
+            <h5 style={{ color: `darkblue` }}>{descr}</h5>
         </div>
     );
 };
