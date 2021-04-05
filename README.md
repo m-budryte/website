@@ -1,2 +1,2 @@
 # Website Main Page
-https://github.com/m-budryte/website/tree/master
+https://m-budryte.github.io/website/
