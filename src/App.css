@@ -2,7 +2,19 @@
   text-align: center;
 }
 
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 25%;
+  background-color: rgb(184, 215, 153);
+  color: white;
+  text-align: left;
+  z-index: 2;
+}
+
 .fa {
+  color: rgb(2, 29, 5);
   padding: 20px;
   font-size: 30px;
 
@@ -14,21 +26,17 @@
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
-  color: white;
+  color: rgb(11, 71, 11);
 }
 
 .fa-github {
-  color: black;
 }
 
 .fa-linkedin {
-  color: black;
 }
 
 .fa-telegram {
-  color: black;
 }
 
 .fa-envelope {
-  color: black;
 }

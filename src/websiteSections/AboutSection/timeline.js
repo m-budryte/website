@@ -1,13 +1,10 @@
 import React from "react";
-import { Parallax } from "react-parallax";
 import "./aboutSection.css";
 import milkyway from './milky-way.jpeg'
 
 
 const Timeline = () => {
   return (
-    <Parallax bgImage={milkyway} 
-    >
     <div className="timelineComp">
       <div className="timeline">
       <div className="container right">
@@ -51,7 +48,6 @@ const Timeline = () => {
         </div>
       </div>
     </div>
-    </Parallax>
   );
 };
 

@@ -1,21 +1,17 @@
-import React, {createRef} from 'react';
+import React from 'react';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
-    BrowserRouter
+    Link
 } from "react-router-dom";
 import AboutSection from '../websiteSections/AboutSection/aboutSection';
 import ArticlesSection from '../websiteSections/ArticlesSection/articlesSection'
 import './navBar.css';
-import Scroll from 'react-scroll'
-const ScrollLink = Scroll.Link
-
 
 const NavBar = () => {
     return (
-        <BrowserRouter>
+        <Router>
             <div className="navBar">
                 <ul>
                     <li><Link to="/website">about</Link></li>
