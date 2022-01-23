@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f9ebe87c.chunk.css",
+    "main.css": "/website/static/css/main.5d93cf21.chunk.css",
     "main.js": "/website/static/js/main.5dede082.chunk.js",
     "main.js.map": "/website/static/js/main.5dede082.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.7b9d7593.js",
@@ -10,7 +10,7 @@
     "static/js/3.f45dcd56.chunk.js": "/website/static/js/3.f45dcd56.chunk.js",
     "static/js/3.f45dcd56.chunk.js.map": "/website/static/js/3.f45dcd56.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.f9ebe87c.chunk.css.map": "/website/static/css/main.f9ebe87c.chunk.css.map",
+    "static/css/main.5d93cf21.chunk.css.map": "/website/static/css/main.5d93cf21.chunk.css.map",
     "static/js/2.879abdc5.chunk.js.LICENSE.txt": "/website/static/js/2.879abdc5.chunk.js.LICENSE.txt",
     "static/media/baton.debd58dd.png": "/website/static/media/baton.debd58dd.png",
     "static/media/kartoshka.6727646b.jpg": "/website/static/media/kartoshka.6727646b.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b9d7593.js",
     "static/js/2.879abdc5.chunk.js",
-    "static/css/main.f9ebe87c.chunk.css",
+    "static/css/main.5d93cf21.chunk.css",
     "static/js/main.5dede082.chunk.js"
   ]
 }
