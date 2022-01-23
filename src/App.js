@@ -6,9 +6,10 @@ import MainPage from "./websiteSections/MainPage/mainPage";
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar />
       <Footer />
     </div>
-  )}
+  );
+}
 
 export default App;
