@@ -1,28 +1,25 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.3dba7293.chunk.css",
-    "main.js": "/website/static/js/main.c9de302a.chunk.js",
-    "main.js.map": "/website/static/js/main.c9de302a.chunk.js.map",
-    "runtime-main.js": "/website/static/js/runtime-main.66de21b4.js",
-    "runtime-main.js.map": "/website/static/js/runtime-main.66de21b4.js.map",
-    "static/js/2.d1874470.chunk.js": "/website/static/js/2.d1874470.chunk.js",
-    "static/js/2.d1874470.chunk.js.map": "/website/static/js/2.d1874470.chunk.js.map",
-    "static/js/3.5ba0bce6.chunk.js": "/website/static/js/3.5ba0bce6.chunk.js",
-    "static/js/3.5ba0bce6.chunk.js.map": "/website/static/js/3.5ba0bce6.chunk.js.map",
+    "main.css": "/website/static/css/main.f9ebe87c.chunk.css",
+    "main.js": "/website/static/js/main.5dede082.chunk.js",
+    "main.js.map": "/website/static/js/main.5dede082.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.7b9d7593.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.7b9d7593.js.map",
+    "static/js/2.879abdc5.chunk.js": "/website/static/js/2.879abdc5.chunk.js",
+    "static/js/2.879abdc5.chunk.js.map": "/website/static/js/2.879abdc5.chunk.js.map",
+    "static/js/3.f45dcd56.chunk.js": "/website/static/js/3.f45dcd56.chunk.js",
+    "static/js/3.f45dcd56.chunk.js.map": "/website/static/js/3.f45dcd56.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.3dba7293.chunk.css.map": "/website/static/css/main.3dba7293.chunk.css.map",
-    "static/js/2.d1874470.chunk.js.LICENSE.txt": "/website/static/js/2.d1874470.chunk.js.LICENSE.txt",
+    "static/css/main.f9ebe87c.chunk.css.map": "/website/static/css/main.f9ebe87c.chunk.css.map",
+    "static/js/2.879abdc5.chunk.js.LICENSE.txt": "/website/static/js/2.879abdc5.chunk.js.LICENSE.txt",
     "static/media/baton.debd58dd.png": "/website/static/media/baton.debd58dd.png",
     "static/media/kartoshka.6727646b.jpg": "/website/static/media/kartoshka.6727646b.jpg",
-    "static/media/laptop.fcfe8c2f.jpg": "/website/static/media/laptop.fcfe8c2f.jpg",
-    "static/media/milky-way.74653ab6.jpeg": "/website/static/media/milky-way.74653ab6.jpeg",
-    "static/media/party.150348bb.jpeg": "/website/static/media/party.150348bb.jpeg",
-    "static/media/rainbow.4f809563.jpeg": "/website/static/media/rainbow.4f809563.jpeg"
+    "static/media/laptop.fcfe8c2f.jpg": "/website/static/media/laptop.fcfe8c2f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.66de21b4.js",
-    "static/js/2.d1874470.chunk.js",
-    "static/css/main.3dba7293.chunk.css",
-    "static/js/main.c9de302a.chunk.js"
+    "static/js/runtime-main.7b9d7593.js",
+    "static/js/2.879abdc5.chunk.js",
+    "static/css/main.f9ebe87c.chunk.css",
+    "static/js/main.5dede082.chunk.js"
   ]
 }
