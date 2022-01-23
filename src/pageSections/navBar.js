@@ -7,8 +7,6 @@ import {
 } from "react-router-dom";
 import AboutSection from '../websiteSections/AboutSection/aboutSection';
 import ArticlesSection from '../websiteSections/ArticlesSection/articlesSection'
-import HomeSection from '../websiteSections/HomeSection/homeSection';
-import ReferralsSection from '../websiteSections/RefSection/referralsSection';
 import './navBar.css';
 
 const NavBar = () => {
@@ -16,28 +14,19 @@ const NavBar = () => {
         <Router>
             <div className="navBar">
                 <ul>
-                    <li><Link to="/website">home</Link></li>
-                    <li><Link to="/website/about">about me</Link></li>
+                    <li><Link to="/website">about</Link></li>
                     <li><Link to="/website/articles">articles</Link></li>
-                    <li><Link to="/website/referrals">referrals</Link></li>
                 </ul>
             </div>
-            <div className="switch">
-            <Switch>
+            <Switch className="switch">
                 <Route path="/website/articles">
                     <ArticlesSection />
                 </Route>
-                <Route path="/website/referrals">
-                    <ReferralsSection />
-                </Route>
-                <Route path="/website/about">
+                <Route path="/website/">
                     <AboutSection />
                 </Route>
-                <Route path="/website">
-                    <HomeSection />
-                </Route>
+
             </Switch>
-            </div>
         </Router>
     )
 }
