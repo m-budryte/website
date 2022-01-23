@@ -1,7 +1,6 @@
 import "./App.css";
 import Footer from "./pageSections/footer";
 import NavBar from "./pageSections/navBar";
-import MainPage from "./websiteSections/MainPage/mainPage";
 
 function App() {
   return (

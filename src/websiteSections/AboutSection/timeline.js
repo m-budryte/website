@@ -1,6 +1,5 @@
 import React from "react";
 import "./aboutSection.css";
-import milkyway from "./milky-way.jpeg";
 
 const Timeline = () => {
   return (
@@ -15,7 +14,7 @@ const Timeline = () => {
             </p>
           </div>
         </div>
-        <div className="container left">
+        <div className="container right">
           <div className="content">
             <h2>2020</h2>
             <p>
