@@ -7,11 +7,15 @@ const Timeline = () => {
       <div className="timeline">
         <div className="container right">
           <div className="content">
-            <h2>2019</h2>
-            <p>Feb-May: Attended Makers Academy Coding bootcamp</p>
-            <p>
-              Aug: Joined ThoughtWorks UK as a graduate consultant developer
-            </p>
+            <h2>2022</h2>
+            <p>Got a Azure Developer Associate Certification</p>
+          </div>
+        </div>
+        <div className="container right">
+          <div className="content">
+            <h2>2021</h2>
+            <p>Joined a Finance project in Private Sector</p>
+            <p>Joined a Payments project in Retail Sector</p>
           </div>
         </div>
         <div className="container right">
@@ -26,8 +30,11 @@ const Timeline = () => {
         </div>
         <div className="container right">
           <div className="content">
-            <h2>2021</h2>
-            <p>Joined a Finance project in Private Sector</p>
+            <h2>2019</h2>
+            <p>Feb-May: Attended Makers Academy Coding bootcamp</p>
+            <p>
+              Aug: Joined ThoughtWorks UK as a graduate consultant developer
+            </p>
           </div>
         </div>
       </div>

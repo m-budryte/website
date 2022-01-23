@@ -6,11 +6,11 @@
   position: fixed;
   right: 0;
   bottom: 0;
-  width:auto;
+  width: 100%;
   background-color: rgb(184, 215, 153);
   color: white;
-  text-align: left;
-  z-index: 2;
+  text-align: right;
+  z-index: 1;
 }
 
 .fa {

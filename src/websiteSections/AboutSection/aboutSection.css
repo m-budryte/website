@@ -26,9 +26,6 @@
   margin-left: -3px;
 }
 
-  /* .timeline::after {
-    left: 31px;
-  } */
 /* Container around content */
 .container {
   padding: 10px 40px;
@@ -51,8 +48,7 @@
   z-index: 1;
 }
 
-Place the container to the left
-.left {
+Place the container to the left .left {
   left: 0;
 }
 
@@ -60,7 +56,6 @@ Place the container to the left
 .right {
   left: 30px;
 }
-
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
