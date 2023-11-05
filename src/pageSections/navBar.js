@@ -15,6 +15,9 @@ const NavBar = () => {
           <li>
             <Link to="/website/articles">articles</Link>
           </li>
+          </li>
+            <Link to="" target = "_blank">CV</a>
+          </li>
         </ul>
       </div>
       <Switch className="switch">
